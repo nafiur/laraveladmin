@@ -5,25 +5,25 @@
             <div class="navbar-brand-box">
                 <a href=" " class="logo logo-dark">
                     <span class="logo-sm">
-                        <img src="{{ asset('backend/assets/images/hrm-light.png') }}" alt="logo-sm" height="50">
+                        <img src="{{ asset('backend/assets/images/hrm-light.png') }}" alt="logo-sm" height="55">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('backend/assets/images/hrm-light.png') }}" alt="logo-dark" height="48">
+                        <img src="{{ asset('backend/assets/images/hrm-light.png') }}" alt="logo-dark" height="55">
                     </span>
                 </a>
 
                 <a href=" " class="logo logo-light">
                     <span class="logo-sm">
-                        <img src="{{ asset('backend/assets/images/hrm-light.png') }}" alt="logo-sm-light" height="50">
+                        <img src="{{ asset('backend/assets/images/hrm-light.png') }}" alt="logo-sm-light" height="55">
                     </span>
                     <span class="logo-lg">
-                        <img src="{{ asset('backend/assets/images/hrm-light.png') }}" alt="hrm-light" height="50">
+                        <img src="{{ asset('backend/assets/images/hrm-light.png') }}" alt="hrm-light" height="55">
                     </span>
                 </a>
             </div>
 
-            <button type="button" class="btn btn-sm px-3 font-size-24 d-lg-none header-item" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
-                <i class="ri-menu-2-line align-middle"></i>
+            <button type="button" class="px-3 btn btn-sm font-size-24 d-lg-none header-item" data-bs-toggle="collapse" data-bs-target="#topnav-menu-content">
+                <i class="align-middle ri-menu-2-line"></i>
             </button>
 
             <!-- App Search-->
@@ -43,11 +43,11 @@
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     <i class="ri-search-line"></i>
                 </button>
-                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
+                <div class="p-0 dropdown-menu dropdown-menu-lg dropdown-menu-end"
                     aria-labelledby="page-header-search-dropdown">
                     
                     <form class="p-3">
-                        <div class="mb-3 m-0">
+                        <div class="m-0 mb-3">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search ...">
                                 <div class="input-group-append">
@@ -64,10 +64,10 @@
                     <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="ri-search-line"></i>
                     </button>
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-search-dropdown">
+                    <div class="p-0 dropdown-menu dropdown-menu-lg dropdown-menu-end" aria-labelledby="page-header-search-dropdown">
                 
                         <form class="p-3">
-                            <div class="mb-3 m-0">
+                            <div class="m-0 mb-3">
                                 <div class="input-group">
                                     <input type="text" class="form-control" placeholder="Search ...">
                                     <div class="input-group-append">
@@ -142,7 +142,7 @@
                         <i class="ri-notification-3-line"></i>
                         <span class="noti-dot"></span>
                     </button>
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0" aria-labelledby="page-header-notifications-dropdown" style="">
+                    <div class="p-0 dropdown-menu dropdown-menu-lg dropdown-menu-end" aria-labelledby="page-header-notifications-dropdown" style="">
                         <div class="p-3">
                             <div class="row align-items-center">
                                 <div class="col">
@@ -214,7 +214,7 @@
                         </div></div></div></div><div class="simplebar-placeholder" style="width: 0px; height: 0px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none;"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: hidden;"><div class="simplebar-scrollbar" style="transform: translate3d(0px, 0px, 0px); display: none; height: 147px;"></div></div></div>
                         <div class="p-2 border-top">
                             <div class="d-grid">
-                                <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
+                                <a class="text-center btn btn-sm btn-link font-size-14" href="javascript:void(0)">
                                     <i class="mdi mdi-arrow-right-circle me-1"></i> View More..
                                 </a>
                             </div>
@@ -237,12 +237,12 @@
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">
                     <!-- item-->
-                    <a class="dropdown-item" href="{{ route('admin.profile') }}"><i class="ri-user-line align-middle me-1"></i> Profile</a>
-                    <a class="dropdown-item" href="{{ route('change.password') }}"><i class="ri-wallet-2-line align-middle me-1"></i> Change Password</a>
-                    <a class="dropdown-item d-block" href="{{ route('usermanagement.all') }}"><i class="ri-settings-2-line align-middle me-1"></i> Settings</a>
-                    <a class="dropdown-item" href="#"><i class="ri-lock-unlock-line align-middle me-1"></i> Lock screen</a>
+                    <a class="dropdown-item" href="{{ route('admin.profile') }}"><i class="align-middle ri-user-line me-1"></i> Profile</a>
+                    <a class="dropdown-item" href="{{ route('change.password') }}"><i class="align-middle ri-wallet-2-line me-1"></i> Change Password</a>
+                    <a class="dropdown-item d-block" href="{{ route('usermanagement.all') }}"><i class="align-middle ri-settings-2-line me-1"></i> Settings</a>
+                    <a class="dropdown-item" href="#"><i class="align-middle ri-lock-unlock-line me-1"></i> Lock screen</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item text-danger" href="{{ route('admin.logout') }}"><i class="ri-shut-down-line align-middle me-1 text-danger"></i> Logout</a>
+                    <a class="dropdown-item text-danger" href="{{ route('admin.logout') }}"><i class="align-middle ri-shut-down-line me-1 text-danger"></i> Logout</a>
                 </div>
             </div>
 
