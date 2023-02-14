@@ -12,11 +12,11 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="{{ route('setup.all') }}">
-                            <i class="ri-dashboard-line me-2"></i> Setup
+                            <i class="ri-settings-2-line me-2"></i> Settings
                         </a>
                     </li>
 
-                    <li class="nav-item dropdown">
+                    {{-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-uielement" role="button"
                         >
                             <i class="ri-settings-2-line me-2"></i>Settings <div class="arrow-down"></div>
@@ -33,10 +33,10 @@
                                         <a href="{{ route('division.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Division Setup</a>
                                         <a href="{{ route('district.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>District Setup</a>
                                         <a href="{{ route('upazilla.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Upazilla Setup</a>
-                                        {{-- <a href="ui-images.html" class="dropdown-item">Images</a> --}}
+                                        <a href="ui-images.html" class="dropdown-item">Images</a>
                                     </div>
-                                </div>
-                                <div class="col-lg-4">
+                                </div> --}}
+                                {{-- <div class="col-lg-4">
                                     <div>
                                         <a href="{{ route('bloodgroup.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Blood Group Setup</a>
                                         <a href="{{ route('department.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Department Setup</a>
@@ -59,7 +59,7 @@
                             </div>
 
                         </div>
-                    </li>
+                    </li> --}}
                     
                    
 

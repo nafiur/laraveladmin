@@ -4,8 +4,15 @@
 
  <div class="page-content">
                     <div class="container-fluid">
-
-                       <!-- start page title -->
+                        <nav aria-label="breadcrumb">
+                            <ol class="px-4 py-3 rounded breadcrumb breadcrumb-alt bg-body-extra-light push fs-sm">
+                              <li class="breadcrumb-item">
+                                <a href="javascript:void(0)">Home</a>
+                              </li>
+                              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+                            </ol>
+                          </nav>
+                       {{-- <!-- start page title -->
             <div class="row">
                 <div class="col-12">
                     <div class="page-title-box d-sm-flex align-items-center justify-content-between">
@@ -21,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <!-- end page title -->
+            <!-- end page title --> --}}
             
             <div class="row">
                 <div class="col-xl-12 col-md-6">
@@ -38,205 +45,203 @@
             </div><!-- end row -->
 
             
-
             <div class="row">
-                <div class="col-xl-12">
-                    <div class="border card border-dark">
-                        <div class="card-body">
-                            {{-- start icon --}}
-                            <div class="px-4 pt-4 rounded push">
-                                <div class="row items-push">
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="{{ route('sector.all') }}">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-envelope fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Sector Setup</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-pencil-alt fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Profile</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-wrench fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Settings</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Add Patient</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Add Event</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Add Payment</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                </div>
-                              </div> 
-                            <div class="px-4 pt-4 rounded push">
-                                <div class="row items-push">
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="{{ route('sector.all') }}">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-envelope fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Sector Setup</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-pencil-alt fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Profile</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-wrench fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Settings</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Add Patient</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Add Event</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Add Payment</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                </div>
-                              </div> 
-                            <div class="px-4 pt-4 rounded push">
-                                <div class="row items-push">
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="{{ route('sector.all') }}">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-envelope fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Sector Setup</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-pencil-alt fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Profile</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-wrench fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Settings</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Add Patient</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Add Event</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                  <div class="col-6 col-md-4 col-xl-2">
-                                    <a class="block mb-0 text-center border border-primary block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
-                                      <div class="block-content">
-                                        <p class="mb-2 d-none d-sm-block text-primary">
-                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
-                                        </p>
-                                        <p class="fw-semibold fs-sm text-uppercase">Add Payment</p>
-                                      </div>
-                                    </a>
-                                  </div>
-                                </div>
-                              </div> 
-                              {{-- end icon --}}
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="{{ route('newemployee.all') }}">
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-compass fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Show All Employee</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-primary" href="{{ route('newemployee.add') }}">
+                    {{-- <div class="ribbon-box">2</div> --}}
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-envelope-open fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Add New Employee</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-success" href="javascript:void(0)">
+                    {{-- <div class="ribbon-box">3</div> --}}
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-briefcase fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Projects</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-chart-pie fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Statistics</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-primary" href="javascript:void(0)">
+                    {{-- <div class="ribbon-box">24</div> --}}
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-user-tie fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">People</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-file-word fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Documents</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            <div class="row">
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="{{ route('newemployee.all') }}">
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-compass fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Show All Employee</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-primary" href="{{ route('newemployee.add') }}">
+                    {{-- <div class="ribbon-box">2</div> --}}
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-envelope-open fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Add New Employee</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-success" href="javascript:void(0)">
+                    {{-- <div class="ribbon-box">3</div> --}}
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-briefcase fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Projects</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-chart-pie fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Statistics</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-primary" href="javascript:void(0)">
+                    {{-- <div class="ribbon-box">24</div> --}}
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-user-tie fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">People</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-file-word fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Documents</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            <div class="row">
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="{{ route('newemployee.all') }}">
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-compass fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Show All Employee</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-primary" href="{{ route('newemployee.add') }}">
+                    {{-- <div class="ribbon-box">2</div> --}}
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-envelope-open fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Add New Employee</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-success" href="javascript:void(0)">
+                    {{-- <div class="ribbon-box">3</div> --}}
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-briefcase fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Projects</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-chart-pie fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Statistics</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-primary" href="javascript:void(0)">
+                    {{-- <div class="ribbon-box">24</div> --}}
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-user-tie fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">People</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="col-6 col-md-4 col-xl-2">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+                    <div class="block-content">
+                      <p class="my-2">
+                        <i class="fa fa-file-word fa-2x text-muted"></i>
+                      </p>
+                      <p class="fw-semibold">Documents</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            
+            
                             
                         </div><!-- end card -->
                     </div><!-- end card -->
