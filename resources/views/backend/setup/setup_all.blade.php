@@ -5,118 +5,311 @@
  <div class="page-content">
                     <div class="container-fluid">
 
-                        <!-- start page title -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0">Supplier All</h4>
+                       <!-- start page title -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="page-title-box d-sm-flex align-items-center justify-content-between">
+                        <h4 class="mb-sm-0">Topbar Light</h4>
 
-                                     
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end page title -->
-                        
-    <div class="row">
-        <div class="col-12">
-            <div class="card">
-                <div class="card-body">
-
-    <a href="{{ route('supplier.add') }}" class="btn btn-dark btn-rounded waves-effect waves-light" style="float:right;"><i class="fas fa-plus-circle"> Add Supplier </i></a> <br>  <br>               
-
-                    <h4 class="card-title">Supplier All Data </h4>
-                    
-
-                    <div class="card-body">
-        
-                        <h4 class="card-title">Default Tabs</h4>
-                        <p class="card-title-desc">Use the tab JavaScript plugin—include
-                            it individually or through the compiled <code class="highlighter-rouge">bootstrap.js</code>
-                            file—to extend our navigational tabs and pills to create tabbable panes
-                            of local content, even via dropdown menus.</p>
-
-                        <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" data-bs-toggle="tab" href="#home" role="tab">
-                                    <span class="d-block d-sm-none"><i class="fas fa-home"></i></span>
-                                    <span class="d-none d-sm-block">Home</span>    
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#profile" role="tab">
-                                    <span class="d-block d-sm-none"><i class="far fa-user"></i></span>
-                                    <span class="d-none d-sm-block">Profile</span>    
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#messages" role="tab">
-                                    <span class="d-block d-sm-none"><i class="far fa-envelope"></i></span>
-                                    <span class="d-none d-sm-block">Messages</span>    
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" data-bs-toggle="tab" href="#settings" role="tab">
-                                    <span class="d-block d-sm-none"><i class="fas fa-cog"></i></span>
-                                    <span class="d-none d-sm-block">Settings</span>    
-                                </a>
-                            </li>
-                        </ul>
-
-                        <!-- Tab panes -->
-                        <div class="p-3 tab-content text-muted">
-                            <div class="tab-pane active" id="home" role="tabpanel">
-                                <p class="mb-0">
-                                    Raw denim you probably haven't heard of them jean shorts Austin.
-                                    Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache
-                                    cliche tempor, williamsburg carles vegan helvetica. Reprehenderit
-                                    butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi,
-                                    qui irure terry richardson ex squid. Aliquip placeat salvia cillum
-                                    iphone. Seitan aliquip quis cardigan american apparel, butcher
-                                    voluptate nisi qui.
-                                </p>
-                            </div>
-                            <div class="tab-pane" id="profile" role="tabpanel">
-                                <p class="mb-0">
-                                    Food truck fixie locavore, accusamus mcsweeney's marfa nulla
-                                    single-origin coffee squid. Exercitation +1 labore velit, blog
-                                    sartorial PBR leggings next level wes anderson artisan four loko
-                                    farm-to-table craft beer twee. Qui photo booth letterpress,
-                                    commodo enim craft beer mlkshk aliquip jean shorts ullamco ad
-                                    vinyl cillum PBR. Homo nostrud organic, assumenda labore
-                                    aesthetic magna delectus.
-                                </p>
-                            </div>
-                            <div class="tab-pane" id="messages" role="tabpanel">
-                                <p class="mb-0">
-                                    Etsy mixtape wayfarers, ethical wes anderson tofu before they
-                                    sold out mcsweeney's organic lomo retro fanny pack lo-fi
-                                    farm-to-table readymade. Messenger bag gentrify pitchfork
-                                    tattooed craft beer, iphone skateboard locavore carles etsy
-                                    salvia banksy hoodie helvetica. DIY synth PBR banksy irony.
-                                    Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh
-                                    mi whatever gluten yr.
-                                </p>
-                            </div>
-                            <div class="tab-pane" id="settings" role="tabpanel">
-                                <p class="mb-0">
-                                    Trust fund seitan letterpress, keytar raw denim keffiyeh etsy
-                                    art party before they sold out master cleanse gluten-free squid
-                                    scenester freegan cosby sweater. Fanny pack portland seitan DIY,
-                                    art party locavore wolf cliche high life echo park Austin. Cred
-                                    vinyl keffiyeh DIY salvia PBR, banh mi before they sold out
-                                    farm-to-table VHS.
-                                </p>
-                            </div>
+                        <div class="page-title-right">
+                            <ol class="m-0 breadcrumb">
+                                <li class="breadcrumb-item"><a href="javascript: void(0);">Layouts</a></li>
+                                <li class="breadcrumb-item active">Topbar Light</li>
+                            </ol>
                         </div>
 
                     </div>
-        
-                                    </div>
+                </div>
+            </div>
+            <!-- end page title -->
+            
+            <div class="row">
+                <div class="col-xl-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <p class="mb-2 text-truncate font-size-14">Total Sales</p>
+                                    <h4 class="mb-2">1452</h4>
+                                    <p class="mb-0 text-muted"><span class="text-success fw-bold font-size-12 me-2"><i class="align-middle ri-arrow-right-up-line me-1"></i>9.23%</span>from previous period</p>
                                 </div>
-                            </div> <!-- end col -->
-                        </div> <!-- end row -->
+                                <div class="avatar-sm">
+                                    <span class="avatar-title bg-light text-primary rounded-3">
+                                        <i class="ri-shopping-cart-2-line font-size-24"></i>  
+                                    </span>
+                                </div>
+                            </div>                                            
+                        </div><!-- end cardbody -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+                <div class="col-xl-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <p class="mb-2 text-truncate font-size-14">New Orders</p>
+                                    <h4 class="mb-2">938</h4>
+                                    <p class="mb-0 text-muted"><span class="text-danger fw-bold font-size-12 me-2"><i class="align-middle ri-arrow-right-down-line me-1"></i>1.09%</span>from previous period</p>
+                                </div>
+                                <div class="avatar-sm">
+                                    <span class="avatar-title bg-light text-success rounded-3">
+                                        <i class="mdi mdi-currency-usd font-size-24"></i>  
+                                    </span>
+                                </div>
+                            </div>                                              
+                        </div><!-- end cardbody -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+                <div class="col-xl-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <p class="mb-2 text-truncate font-size-14">New Users</p>
+                                    <h4 class="mb-2">8246</h4>
+                                    <p class="mb-0 text-muted"><span class="text-success fw-bold font-size-12 me-2"><i class="align-middle ri-arrow-right-up-line me-1"></i>16.2%</span>from previous period</p>
+                                </div>
+                                <div class="avatar-sm">
+                                    <span class="avatar-title bg-light text-primary rounded-3">
+                                        <i class="ri-user-3-line font-size-24"></i>  
+                                    </span>
+                                </div>
+                            </div>                                              
+                        </div><!-- end cardbody -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+                <div class="col-xl-3 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex">
+                                <div class="flex-grow-1">
+                                    <p class="mb-2 text-truncate font-size-14">Unique Visitors</p>
+                                    <h4 class="mb-2">29670</h4>
+                                    <p class="mb-0 text-muted"><span class="text-success fw-bold font-size-12 me-2"><i class="align-middle ri-arrow-right-up-line me-1"></i>11.7%</span>from previous period</p>
+                                </div>
+                                <div class="avatar-sm">
+                                    <span class="avatar-title bg-light text-success rounded-3">
+                                        <i class="mdi mdi-currency-btc font-size-24"></i>  
+                                    </span>
+                                </div>
+                            </div>                                              
+                        </div><!-- end cardbody -->
+                    </div><!-- end card -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+
+            
+
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="card">
+                        <div class="card-body">
+                            {{-- start icon --}}
+                            <div class="px-4 pt-4 rounded push">
+                                <div class="row items-push">
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="{{ route('sector.all') }}">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-envelope fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Sector Setup</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-pencil-alt fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Profile</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-wrench fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Settings</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Add Patient</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Add Event</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Add Payment</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div> 
+                              {{-- end icon --}}
+                            {{-- start icon --}}
+                            <div class="px-4 pt-4 rounded push">
+                                <div class="row items-push">
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-envelope fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Inbox</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-pencil-alt fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Profile</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-wrench fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Settings</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Add Patient</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Add Event</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Add Payment</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div> 
+                              {{-- end icon --}}
+                            {{-- start icon --}}
+                            <div class="px-4 pt-4 rounded push">
+                                <div class="row items-push">
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-envelope fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Inbox</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-pencil-alt fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Profile</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-wrench fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Settings</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Add Patient</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Add Event</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                  <div class="col-6 col-md-4 col-xl-2">
+                                    <a class="block mb-0 text-center block-rounded block-link-pop d-flex align-items-center h-100" href="javascript:void(0)">
+                                      <div class="block-content">
+                                        <p class="mb-2 d-none d-sm-block text-primary">
+                                          <i class="opacity-50 fa fa-plus-circle fa-2x"></i>
+                                        </p>
+                                        <p class="fw-semibold fs-sm text-uppercase">Add Payment</p>
+                                      </div>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div> 
+                              {{-- end icon --}}
+                        </div><!-- end card -->
+                    </div><!-- end card -->
+                </div>
+                <!-- end col -->
+                
+            </div>
+            <!-- end row -->
+        </div>
         
                      
                         

@@ -10,6 +10,11 @@
                             <i class="ri-dashboard-line me-2"></i> Dashboard
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('setup.all') }}">
+                            <i class="ri-dashboard-line me-2"></i> Setup
+                        </a>
+                    </li>
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-uielement" role="button"
@@ -17,7 +22,7 @@
                             <i class="ri-settings-2-line me-2"></i>Settings <div class="arrow-down"></div>
                         </a>
 
-                        <div class="dropdown-menu mega-dropdown-menu px-2 dropdown-mega-menu-xl"
+                        <div class="px-2 dropdown-menu mega-dropdown-menu dropdown-mega-menu-xl"
                             aria-labelledby="topnav-uielement">
                             <div class="row">
                                 <div class="col-lg-4">
@@ -33,12 +38,12 @@
                                 </div>
                                 <div class="col-lg-4">
                                     <div>
-                                        <a href="{{ route('sector.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Sector Setup</a>
-                                        <a href="{{ route('domain.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Domain Setup</a>
-                                        <a href="{{ route('designation.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Designation Setup</a>
-                                        <a href="{{ route('division.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Division Setup</a>
-                                        <a href="{{ route('district.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>District Setup</a>
-                                        <a href="{{ route('upazilla.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Upazilla Setup</a>                                          
+                                        <a href="{{ route('bloodgroup.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Blood Group Setup</a>
+                                        <a href="{{ route('department.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Department Setup</a>
+                                        <a href="{{ route('educationalqualification.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Edu Qualification</a>
+                                        <a href="{{ route('employeetype.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Employee Type</a>
+                                        <a href="{{ route('gender.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Gender Type</a>
+                                        <a href="{{ route('jobstatus.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Job Status</a>                                          
                                     </div>
                                 </div>
                                 <div class="col-lg-4">

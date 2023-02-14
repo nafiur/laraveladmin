@@ -27,6 +27,8 @@
         <!-- Responsive datatable examples -->
         <link href="{{ asset('backend/assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css') }}" rel="stylesheet" type="text/css" />  
 
+        <!-- mix Css -->
+        <link href="{{ asset('backend/assets/css/mix.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
         <!-- Bootstrap Css -->
         <link href="{{ asset('backend/assets/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
         <!-- Icons Css -->
@@ -127,6 +129,7 @@
         <script src="{{ asset('backend/assets/js/pages/dashboard.init.js') }}"></script>
 
         <!-- App js -->
+        <script src="{{ asset('backend/assets/js/mix.min.js') }}"></script>
         <script src="{{ asset('backend/assets/js/app.js') }}"></script>
 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
