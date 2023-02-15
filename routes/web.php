@@ -61,6 +61,12 @@ Route::controller(AdminController::class)->group(function () {
      
 });
 
+//  // e-File Route 
+
+// Route::controller(EfileController::class)->group(function () {
+//     Route::get('/efile/all', 'EfileAll')->name('efile.all');
+    
+// });
  // Setup All Route 
 
 Route::controller(SetupController::class)->group(function () {
@@ -429,16 +435,20 @@ Route::controller(DefaultController::class)->group(function () {
 });
 
 
- 
+Route::get('/efile', function () {
+    return view('efile.index');
+})->middleware(['auth'])->name('efile');
 
 
 Route::get('/dashboard', function () {
     return view('admin.index');
 })->middleware(['auth'])->name('dashboard');
 
+// Route::get('/efile', function () {
+//     return view('efile.index');
+// })->middleware(['auth'])->name('efile');
+
 require __DIR__.'/auth.php';
 
 
-// Route::get('/contact', function () {
-//     return view('contact');
-// });
+

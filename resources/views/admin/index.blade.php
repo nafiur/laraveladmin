@@ -56,7 +56,7 @@
                   </a>
                 </div>
                 <div class="col-6 col-md-4 col-xl-2">
-                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-success" href="javascript:void(0)">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-success" href="">
                     <div class="ribbon-box">3</div>
                     <div class="block-content">
                       <p class="my-2">
