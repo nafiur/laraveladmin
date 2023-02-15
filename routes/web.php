@@ -61,12 +61,6 @@ Route::controller(AdminController::class)->group(function () {
      
 });
 
-//  // e-File Route 
-
-// Route::controller(EfileController::class)->group(function () {
-//     Route::get('/efile/all', 'EfileAll')->name('efile.all');
-    
-// });
  // Setup All Route 
 
 Route::controller(SetupController::class)->group(function () {

@@ -46,8 +46,8 @@
                                                 <td> {{ $item->domain_id }} </td> 
                                                 <td> {{ $item->date_of_birth }} </td> 
                                                 <td>
-                                                    {{-- <a href="{{ route('newemployee.edit',$item->id) }}" class="btn btn-info sm" title="Edit Data">  <i class="fas fa-edit"></i> </a> --}}
-                                                    {{-- <a href="{{ route('newemployee.delete',$item->id) }}" class="btn btn-danger sm" title="Delete Data" id="delete">  <i class="fas fa-trash-alt"></i> </a> --}}
+                                                    <a href="{{ route('newemployee.edit',$item->id) }}" class="btn btn-info sm" title="Edit Data">  <i class="fas fa-edit"></i> </a>
+                                                    <a href="{{ route('newemployee.delete',$item->id) }}" class="btn btn-danger sm" title="Delete Data" id="delete">  <i class="fas fa-trash-alt"></i> </a>
                                                 </td>  
                                         </tr>
                                         @endforeach

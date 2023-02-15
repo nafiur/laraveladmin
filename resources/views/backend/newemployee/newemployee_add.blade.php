@@ -38,7 +38,7 @@
                                             <div class="col-md-6">
                                                 <div class="mb-3">
                                                     <label for="example-text-input" class="form-label">Employee ID</label>
-                                                    <input type="text" name="employee_id" class="form-control" required="" data-parsley-maxlength="8" placeholder="10100000">
+                                                    <input type="text" name="id" class="form-control" required="" data-parsley-maxlength="8" placeholder="10100000">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">

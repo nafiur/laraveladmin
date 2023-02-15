@@ -4,6 +4,14 @@
  @section('title'){{'Edit Branch'}} @endsection
 <div class="page-content">
     <div class="container-fluid">
+        <nav aria-label="breadcrumb">
+            <ol class="px-4 py-3 rounded breadcrumb breadcrumb-alt bg-body-extra-light push fs-sm">
+              <li class="breadcrumb-item">
+                <a href="/dashboard">Home</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+            </ol>
+          </nav>
             <div class="row">
                 <div class="col-12">
                     <div class="card">

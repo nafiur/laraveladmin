@@ -38,7 +38,7 @@
                   <a class="block text-center block-rounded block-bordered block-link-shadow" href="{{ route('newemployee.all') }}">
                     <div class="block-content">
                       <p class="my-2">
-                        <i class="fa fa-compass fa-2x text-muted"></i>
+                        <i class="fa fas fa-house-user fa-2x text-muted"></i>
                       </p>
                       <p class="fw-semibold">Show All Employee</p>
                     </div>
@@ -49,7 +49,7 @@
                     {{-- <div class="ribbon-box">2</div> --}}
                     <div class="block-content">
                       <p class="my-2">
-                        <i class="fa fa-envelope-open fa-2x text-muted"></i>
+                        <i class="fa fas fa-user-plus fa-2x text-muted"></i>
                       </p>
                       <p class="fw-semibold">Add New Employee</p>
                     </div>
@@ -60,19 +60,19 @@
                     {{-- <div class="ribbon-box">3</div> --}}
                     <div class="block-content">
                       <p class="my-2">
-                        <i class="fa fa-briefcase fa-2x text-muted"></i>
+                        <i class="fa fas fa-file-archive fa-2x text-muted"></i>
                       </p>
                       <p class="fw-semibold">eFile Management</p>
                     </div>
                   </a>
                 </div>
                 <div class="col-6 col-md-4 col-xl-2">
-                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="javascript:void(0)">
+                  <a class="block text-center block-rounded block-bordered block-link-shadow" href="{{ route('setup.all') }}">
                     <div class="block-content">
                       <p class="my-2">
-                        <i class="fa fa-chart-pie fa-2x text-muted"></i>
+                        <i class="fa fas fa-cogs fa-2x text-muted"></i>
                       </p>
-                      <p class="fw-semibold">Statistics</p>
+                      <p class="fw-semibold">All Setup</p>
                     </div>
                   </a>
                 </div>
