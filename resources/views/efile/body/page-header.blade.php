@@ -36,31 +36,29 @@
       <!-- Right Section -->
       <div>
         <!-- User Dropdown -->
+           @php
+              $id = Auth::user()->id;
+              $adminData = App\Models\User::find($id);
+            @endphp
         <div class="dropdown d-inline-block">
           <button type="button" class="btn btn-alt-secondary" id="page-header-user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="d-none d-lg-inline mx-1">lisa.d@example.com</span>
-            <span class="badge rounded-pill bg-dark">VIP</span>
+            <span class="d-none d-lg-inline mx-1">{{ $adminData->name }} </span>
+            {{-- <img class="img-avatar" src="{{ (!empty($adminData->profile_image))? url('upload/admin_images/'.$adminData->profile_image):url('upload/no_image.jpg') }}" alt=""> --}}
+            {{-- <span class="badge rounded-pill bg-dark"><img class="img-avatar" src="{{ (!empty($adminData->profile_image))? url('upload/admin_images/'.$adminData->profile_image):url('upload/no_image.jpg') }}" alt=""></span> --}}
             <i class="fa fa-fw fa-angle-down ms-1"></i>
           </button>
           <div class="dropdown-menu dropdown-menu-end dropdown-menu-lg p-0 overflow-hidden" aria-labelledby="page-header-user-dropdown">
             <div class="row g-0">
-              <div class="col-5 d-flex align-items-center justify-content-center bg-image p-2" style="background-image: url('assets/media/photos/photo10.jpg');">
-                <img class="img-avatar img-avatar96 img-avatar-thumb" src="assets/media/avatars/avatar1.jpg" alt="">
-              </div>
+              {{-- <div class="col-5 d-flex align-items-center justify-content-center bg-image p-2" style="background-image: url('assets/media/photos/photo10.jpg');"> --}}
+                {{-- <img class="img-avatar img-avatar96 img-avatar-thumb" src="{{ (!empty($adminData->profile_image))? url('upload/admin_images/'.$adminData->profile_image):url('upload/no_image.jpg') }}" alt=""> --}}
+              {{-- </div> --}}
               <div class="col-7 p-2 fs-sm">
-                <a class="dropdown-item fw-semibold" href="be_pages_generic_profile.html">
-                  <i class="fa fa-fw fa-user-circle me-1"></i>
-                  Lisa Doe
-                </a>
-                <a class="dropdown-item" href="javascript:void(0)">
-                  <i class="fa fa-fw fa-pencil-alt me-1"></i>
-                  Edit My Profile
-                </a>
-                <div role="separator" class="dropdown-divider"></div>
-                <a class="dropdown-item" href="op_auth_signin.html">
-                  <i class="fa fa-fw fa-sign-out-alt me-1"></i>
-                  Log Out
-                </a>
+                <a class="dropdown-item" href="{{ route('admin.profile') }}"><i class="align-middle ri-user-line me-1"></i> Profile</a>
+                    <a class="dropdown-item" href="{{ route('change.password') }}"><i class="align-middle ri-wallet-2-line me-1"></i> Change Password</a>
+                    <a class="dropdown-item d-block" href="{{ route('usermanagement.all') }}"><i class="align-middle ri-settings-2-line me-1"></i> Settings</a>
+                    <a class="dropdown-item" href="#"><i class="align-middle ri-lock-unlock-line me-1"></i> Lock screen</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item text-danger" href="{{ route('admin.logout') }}"><i class="align-middle ri-shut-down-line me-1 text-danger"></i> Logout</a>
               </div>
             </div>
           </div>

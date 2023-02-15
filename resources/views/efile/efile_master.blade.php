@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <title>@yield('title') | {{ config('app.name','') }} </title>
+    <title>@yield('title'){{'e-File Management | HR-M & Admin'}} </title>
+    {{-- @section('title'){{'Add New Employee Type'}} @endsection --}}
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="HRM & Admin, TMSS" name="description" />
@@ -12,9 +13,9 @@
 
     <!-- Icons -->
     <!-- The following icons can be replaced with your own, they are used by desktop and mobile browsers -->
-    <link rel="shortcut icon" href="{{ asset('backend/mix/assets/media/favicons/favicon.png') }}">
-    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('backend/mix/assets/media/favicons/favicon-192x192.png') }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('backend/mix/assets/media/favicons/apple-touch-icon-180x180.png') }}">
+    <link rel="shortcut icon" href="{{ asset('backend/assets/images/tmss.png') }}">
+    <link rel="icon" type="image/png" sizes="192x192" href="{{ asset('backend/assets/images/tmss.png') }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('backend/assets/images/tmss.png') }}">
     <!-- END Icons -->
 
     <!-- Stylesheets -->
@@ -43,6 +44,6 @@
       @include('efile.body.footer')
     </div>
     <!-- END Page Container -->
-    <script src="{{ asset('backend/assets/js/dashmix.app.min.js') }}"></script>
+    <script src="{{ asset('backend/mix/assets/js/dashmix.app.min.js') }}"></script>
   </body>
 </html>

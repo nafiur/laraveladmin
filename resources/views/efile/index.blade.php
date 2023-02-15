@@ -316,7 +316,7 @@
               <div class="options-item block block-rounded block-transparent mb-0 w-100">
                 <div class="block-content text-center">
                   <p class="mb-2 overflow-hidden">
-                    <img class="img-fluid" src="assets/media/photos/photo22.jpg" alt="">
+                    <img class="img-fluid" src="{{ asset('backend/mix/assets/media/photos/photo22.jpg') }}" alt="">
                   </p>
                   <p class="fw-semibold text-break mb-0">
                     background_1.jpg
@@ -357,7 +357,7 @@
               <div class="options-item block block-rounded block-transparent mb-0 w-100">
                 <div class="block-content text-center">
                   <p class="mb-2 overflow-hidden">
-                    <img class="img-fluid" src="assets/media/photos/photo21.jpg" alt="">
+                    <img class="img-fluid" src="{{ asset('backend/mix/assets/media/photos/photo21.jpg') }}" alt="">
                   </p>
                   <p class="fw-semibold text-break mb-0">
                     background_2.jpg
@@ -398,7 +398,7 @@
               <div class="options-item block block-rounded block-transparent mb-0 w-100">
                 <div class="block-content text-center">
                   <p class="mb-2 overflow-hidden">
-                    <img class="img-fluid" src="assets/media/photos/photo24.jpg" alt="">
+                    <img class="img-fluid" src="{{ asset('backend/mix/assets/media/photos/photo24.jpg') }}" alt="">
                   </p>
                   <p class="fw-semibold text-break mb-0">
                     background_3.jpg

@@ -3,15 +3,19 @@
     <div class="bg-header-dark">
       <div class="content-header bg-white-5">
         <!-- Logo -->
-        <a class="fw-semibold text-white tracking-wide" href="index.html">
+        {{-- <a class="fw-semibold text-white tracking-wide" href="index.html">
           <span class="smini-visible">
             D<span class="opacity-75">x</span>
           </span>
           <span class="smini-hidden">
-            Dash<span class="opacity-75">mix</span>
-            <span class="fw-normal">File Hosting</span>
+            e-File</span>
+            <span class="fw-normal">Management</span>
           </span>
+        </a> --}}
+        <a class="fw-semibold text-white tracking-wide" href="index.html">
+          <span class="smini-hidden"><img src="{{ asset('backend/assets/images/hrm-light.png') }}" alt="logo-sm-light" height="40"></span>
         </a>
+        
         <!-- END Logo -->
 
         <!-- Options -->

@@ -56,13 +56,13 @@
                   </a>
                 </div>
                 <div class="col-6 col-md-4 col-xl-2">
-                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-success" href="">
-                    <div class="ribbon-box">3</div>
+                  <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-success" href="/efile">
+                    {{-- <div class="ribbon-box">3</div> --}}
                     <div class="block-content">
                       <p class="my-2">
                         <i class="fa fa-briefcase fa-2x text-muted"></i>
                       </p>
-                      <p class="fw-semibold">Projects</p>
+                      <p class="fw-semibold">eFile Management</p>
                     </div>
                   </a>
                 </div>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="col-6 col-md-4 col-xl-2">
                   <a class="block text-center block-rounded block-bordered block-link-shadow ribbon ribbon-modern ribbon-primary" href="javascript:void(0)">
-                    <div class="ribbon-box">24</div>
+                    {{-- <div class="ribbon-box">24</div> --}}
                     <div class="block-content">
                       <p class="my-2">
                         <i class="fa fa-user-tie fa-2x text-muted"></i>

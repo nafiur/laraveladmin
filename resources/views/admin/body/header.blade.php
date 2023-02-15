@@ -223,7 +223,7 @@
                 </div>
 
 
-                @php
+            @php
             $id = Auth::user()->id;
             $adminData = App\Models\User::find($id);
             @endphp
