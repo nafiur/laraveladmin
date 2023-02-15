@@ -61,7 +61,7 @@
               </a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="{{ route('admin.logout') }}">
-                <i class="far fa-fw fa-sign-out me-1 text-danger"></i> Logout
+                <i class="fa-solid fa-right-from-bracket text-danger"></i> Logout
               </a>
               {{-- <div role="separator" class="dropdown-divider"></div>
               <div class="col-7 p-2 fs-sm">
