@@ -47,11 +47,23 @@
             {{-- <span class="badge rounded-pill bg-dark"><img class="img-avatar" src="{{ (!empty($adminData->profile_image))? url('upload/admin_images/'.$adminData->profile_image):url('upload/no_image.jpg') }}" alt=""></span> --}}
             <i class="fa fa-fw fa-angle-down ms-1"></i>
           </button>
-          <div class="dropdown-menu dropdown-menu-end dropdown-menu-lg p-0 overflow-hidden" aria-labelledby="page-header-user-dropdown">
+          <div class="dropdown-menu dropdown-menu-end dropdown-menu-sm p-0 overflow-hidden" aria-labelledby="page-header-user-dropdown">
             <div class="row g-0">
               {{-- <div class="col-5 d-flex align-items-center justify-content-center bg-image p-2" style="background-image: url('assets/media/photos/photo10.jpg');"> --}}
                 {{-- <img class="img-avatar img-avatar96 img-avatar-thumb" src="{{ (!empty($adminData->profile_image))? url('upload/admin_images/'.$adminData->profile_image):url('upload/no_image.jpg') }}" alt=""> --}}
               {{-- </div> --}}
+              <a class="dropdown-item" href="{{ route('admin.profile') }}">
+                <i class="far fa-fw fa-user me-1"></i> Profile
+              </a>
+              <a class="dropdown-item d-flex align-items-center justify-content-between" href="{{ route('change.password') }}">
+                <span><i class="far fa-fw fa-envelope me-1"></i> Change Password</span>
+                {{-- <span class="badge bg-primary rounded-pill">3</span> --}}
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="{{ route('admin.logout') }}">
+                <i class="far fa-fw fa-sign-out me-1 text-danger"></i> Logout
+              </a>
+              {{-- <div role="separator" class="dropdown-divider"></div>
               <div class="col-7 p-2 fs-sm">
                 <a class="dropdown-item" href="{{ route('admin.profile') }}"><i class="align-middle ri-user-line me-1"></i> Profile</a>
                     <a class="dropdown-item" href="{{ route('change.password') }}"><i class="align-middle ri-wallet-2-line me-1"></i> Change Password</a>
@@ -59,7 +71,7 @@
                     <a class="dropdown-item" href="#"><i class="align-middle ri-lock-unlock-line me-1"></i> Lock screen</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item text-danger" href="{{ route('admin.logout') }}"><i class="align-middle ri-shut-down-line me-1 text-danger"></i> Logout</a>
-              </div>
+              </div> --}}
             </div>
           </div>
         </div>
