@@ -28,9 +28,9 @@
 
           <!-- Close Sidebar, Visible only on mobile screens -->
           <!-- Layout API, functionality initialized in Template._uiApiLayout() -->
-          <button type="button" class="btn btn-sm btn-alt-secondary d-lg-none" data-toggle="layout" data-action="sidebar_close">
+          {{-- <button type="button" class="btn btn-sm btn-alt-secondary d-lg-none" data-toggle="layout" data-action="sidebar_close">
             <i class="fa fa-times-circle"></i>
-          </button>
+          </button> --}}
           <!-- END Close Sidebar -->
         </div>
         <!-- END Options -->
@@ -41,6 +41,11 @@
     <!-- Sidebar Scrolling -->
     <div class="js-sidebar-scroll">
       <!-- Side Actions -->
+      <div class="content-side smini-hide">
+        <a class="btn btn-alt-success w-100" href="/dashboard">
+          <i class="fa fa-arrow-rotate-left me-1"></i> Back to Dashboard
+        </a>
+      </div>
       <div class="content-side smini-hide">
         <a class="btn btn-alt-success w-100" href="javascript:void(0)">
           <i class="fa fa-plus me-1"></i> Add New
