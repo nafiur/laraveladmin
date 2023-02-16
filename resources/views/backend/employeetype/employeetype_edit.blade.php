@@ -9,7 +9,7 @@
               <li class="breadcrumb-item">
                 <a href="/dashboard">Home</a>
               </li>
-              <li class="breadcrumb-item active" aria-current="page">Edit Employee Type Information</li>
+              <li class="breadcrumb-item active" aria-current="page">Edit Employee Type Info</li>
             </ol>
           </nav>
             <div class="row">

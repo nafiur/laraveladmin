@@ -38,7 +38,7 @@
 
                                         <div class="row mb-3">
                                             <label class="col-sm-2 col-form-label">Domain Name </label>
-                                            <div class="col-sm-10">
+                                            <div class="col-sm-6">
                                                 <select name="domain_id" class="form-select" aria-label="Default select example">
                                                     <option selected="">Select Domain</option>
                                                     @foreach($domains as $domain)
@@ -49,7 +49,7 @@
                                         </div>
                                         <div class="row mb-3">
                                             <label class="col-sm-2 col-form-label">Zone Name </label>
-                                            <div class="col-sm-10">
+                                            <div class="col-sm-6">
                                                 <select name="zone_id" class="form-select" aria-label="Default select example">
                                                     <option selected="">Select Zone</option>
                                                     @foreach($zones as $zone)
@@ -61,12 +61,12 @@
 
                                     <div class="row mb-3">
                                         <label for="example-text-input" class="col-sm-2 col-form-label">Area Name </label>
-                                        <div class="form-group col-sm-10">
+                                        <div class="form-group col-sm-6">
                                             <input name="name" class="form-control" type="text"    >
                                         </div>
                                     </div>
                                     <!-- end row -->
-                                    <input type="submit" class="btn btn-info waves-effect waves-light" value="Add Area">
+                                    <input type="submit" class="btn btn-info waves-effect waves-light" value="Save">
                                 </form>
                             </div>
                         </div>
@@ -93,13 +93,13 @@
             },
             messages :{
                 name: {
-                    required : 'Please Enter Upazilla Name',
+                    required : 'Please Enter Area Name',
                 },
                 domain_id: {
-                    required : 'Please Enter Division Name',
+                    required : 'Please Enter Domain Name',
                 },
                 zone_id: {
-                    required : 'Please Enter District Name',
+                    required : 'Please Enter Zone Name',
                 },
             },
             errorElement : 'span', 
