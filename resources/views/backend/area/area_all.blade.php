@@ -9,7 +9,7 @@
               <li class="breadcrumb-item">
                 <a href="/dashboard">Home</a>
               </li>
-              <li class="breadcrumb-item active" aria-current="page">Area</li>
+              <li class="breadcrumb-item active" aria-current="page">Area Management</li>
             </ol>
           </nav>
         {{-- <!-- start page title -->

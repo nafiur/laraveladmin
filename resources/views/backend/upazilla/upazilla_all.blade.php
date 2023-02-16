@@ -10,7 +10,7 @@
               <li class="breadcrumb-item">
                 <a href="/dashboard">Home</a>
               </li>
-              <li class="breadcrumb-item active" aria-current="page">Dashboard</li>
+              <li class="breadcrumb-item active" aria-current="page">Upazilla Management</li>
             </ol>
           </nav>
         {{-- <!-- start page title -->
