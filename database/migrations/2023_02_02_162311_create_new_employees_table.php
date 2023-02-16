@@ -15,28 +15,28 @@ return new class extends Migration
     {
         Schema::create('new_employees', function (Blueprint $table) {
             // $table->id('employee_id');
-            $table->string('id');
+            $table->string('employee_id');
             $table->string('name');
-            $table->string('designation_id')->nullable();
+            $table->string('designation')->nullable();
             $table->date('joiningdate')->nullable();
             $table->date('date_of_birth')->nullable();
             $table->string('domain_id')->nullable();
             $table->string('father_name')->nullable();
             $table->string('mother_name')->nullable();
             $table->string('marital_status_id')->nullable();
-            $table->string('birth_place_district_id')->nullable();
+            $table->string('district_id')->nullable();
             $table->string('present_village')->nullable();
             $table->string('present_post')->nullable();
             $table->string('present_postal_code')->nullable();
-            $table->string('present_division_id')->nullable();
-            $table->string('present_district_id')->nullable();
-            $table->string('present_upazilla_id')->nullable();
+            $table->string('present_division')->nullable();
+            $table->string('present_district')->nullable();
+            $table->string('present_upazilla')->nullable();
             $table->string('permanent_village')->nullable();
             $table->string('permanent_post')->nullable();
             $table->string('permanent_postal_code')->nullable();
-            $table->string('permanent_division_id')->nullable();
-            $table->string('permanent_district_id')->nullable();
-            $table->string('permanent_upazilla_id')->nullable();
+            $table->string('permanent_division')->nullable();
+            $table->string('permanent_district')->nullable();
+            $table->string('permanent_upazilla')->nullable();
             $table->string('nid')->nullable();
             $table->string('smartcard')->nullable();
             $table->string('bloodgroups_id')->nullable();
