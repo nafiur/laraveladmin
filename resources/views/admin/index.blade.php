@@ -1,6 +1,6 @@
 @extends('admin.admin_master')
 @section('admin')
-
+@section('title'){{'Dashboard'}} @endsection
 
 <div class="main-content">
 

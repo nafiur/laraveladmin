@@ -15,62 +15,21 @@
                             <i class="ri-settings-2-line me-2"></i> Settings
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('download.all') }}">
+                            <i class="ri-file-word-2-line me-2"></i> Forms & Formats
+                        </a>
+                    </li>
+                  
 
                     {{-- <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-uielement" role="button"
+                        <a class="nav-link dropdown-toggle arrow-none" href="{{ route('download.all') }}" id="topnav-apps" role="button"
                         >
-                            <i class="ri-settings-2-line me-2"></i>Settings <div class="arrow-down"></div>
-                        </a>
-
-                        <div class="px-2 dropdown-menu mega-dropdown-menu dropdown-mega-menu-xl"
-                            aria-labelledby="topnav-uielement">
-                            <div class="row">
-                                <div class="col-lg-4">
-                                    <div> 
-                                        <a href="{{ route('sector.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Sector Setup</a>
-                                        <a href="{{ route('domain.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Domain Setup</a>
-                                        <a href="{{ route('designation.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Designation Setup</a>
-                                        <a href="{{ route('division.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Division Setup</a>
-                                        <a href="{{ route('district.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>District Setup</a>
-                                        <a href="{{ route('upazilla.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Upazilla Setup</a>
-                                        <a href="ui-images.html" class="dropdown-item">Images</a>
-                                    </div>
-                                </div> --}}
-                                {{-- <div class="col-lg-4">
-                                    <div>
-                                        <a href="{{ route('bloodgroup.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Blood Group Setup</a>
-                                        <a href="{{ route('department.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Department Setup</a>
-                                        <a href="{{ route('educationalqualification.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Edu Qualification</a>
-                                        <a href="{{ route('employeetype.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Employee Type</a>
-                                        <a href="{{ route('gender.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Gender Type</a>
-                                        <a href="{{ route('jobstatus.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Job Status</a>                                          
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div>
-                                        <a href="{{ route('sector.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Sector Setup</a>
-                                        <a href="{{ route('domain.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Domain Setup</a>
-                                        <a href="{{ route('designation.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Designation Setup</a>
-                                        <a href="{{ route('division.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Division Setup</a>
-                                        <a href="{{ route('district.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>District Setup</a>
-                                        <a href="{{ route('upazilla.all') }}" class="dropdown-item"><i class="ri-settings-2-line me-2"></i>Upazilla Setup</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </li> --}}
-                    
-                   
-
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button"
-                        >
-                            <i class="ri-apps-2-line me-2"></i>Apps <div class="arrow-down"></div>
+                            <i class=" ri-file-word-2-line me-2"></i>Forms & Formats <div class="arrow-down"></div>
                         </a>
                         <div class="dropdown-menu" aria-labelledby="topnav-apps">
 
-                            <a href="calendar.html" class="dropdown-item">Calendar</a>
+                            <a href="{{ route('download.all') }}" class="dropdown-item">All Form</a>
                             <div class="dropdown">
                                 <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-email"
                                     role="button">
@@ -82,7 +41,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    </li> --}}
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-components" role="button"

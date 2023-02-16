@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Pos\UnitController;
 use App\Http\Controllers\Demo\DemoController;
+use App\Http\Controllers\DownloadsController;
 use App\Http\Controllers\Pos\StockController;
 use App\Http\Controllers\Setup\AreaController;
 use App\Http\Controllers\Setup\ZoneController;
@@ -273,6 +274,17 @@ Route::controller(NewEmployeeController::class)->group(function () {
     Route::get('/newemployee/edit/{id}', 'NewEmployeeEdit')->name('newemployee.edit'); 
     Route::post('/newemployee/update', 'NewEmployeeUpdate')->name('newemployee.update');
     Route::get('/newemployee/delete/{id}', 'NewEmployeeDelete')->name('newemployee.delete');
+    
+});
+
+// Downloads
+Route::controller(DownloadsController::class)->group(function () {
+    Route::get('/download/all', 'DownloadsAll')->name('download.all');
+    Route::get('/download/add', 'DownloadsAdd')->name('download.add'); 
+    Route::post('/download/store', 'DownloadsStore')->name('download.store');
+    Route::get('/download/edit/{id}', 'DownloadsEdit')->name('download.edit'); 
+    Route::post('/download/update', 'DownloadsUpdate')->name('download.update');
+    Route::get('/download/delete/{id}', 'DownloadsDelete')->name('download.delete');
     
 });
 // Usermanagement Setup
