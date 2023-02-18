@@ -74,7 +74,7 @@
                         </div>
                       </div>
                       <div class="mb-4">
-                        <button type="submit" class="btn w-100 btn-lg btn-hero btn-primary">
+                        <button type="submit" class="btn w-100 btn-lg btn-hero btn-success">
                           <i class="fa fa-fw fa-sign-in-alt opacity-50 me-1"></i> Sign In
                         </button>
                         <p class="mt-3 mb-0 d-lg-flex justify-content-lg-between">
@@ -98,9 +98,12 @@
             <div class="hero-static col-md-6 d-none d-md-flex align-items-md-center justify-content-md-center text-md-center">
               <div class="p-3">
                 <p class="display-5 fw-bold text-white mb-3">
-                  Welcome to HR-M & Admin
+                  Welcome to
                 </p>
                 <p class="display-5 fw-bold text-white mb-3">
+                  HR-M & Admin
+                </p>
+                <p class="display-3 fw-bold text-white mb-3">
                     TMSS
                   </p>
                 <p class="fs-lg fw-semibold text-white-75 mb-0">

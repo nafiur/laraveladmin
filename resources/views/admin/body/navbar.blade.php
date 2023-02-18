@@ -20,7 +20,58 @@
                             <i class="ri-file-word-2-line me-2"></i> Forms & Formats
                         </a>
                     </li>
-                  
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('all.roles-permission-mgt') }}">
+                            <i class="ri-file-word-2-line me-2"></i> User Management
+                        </a>
+                    </li>
+                    
+                    {{-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="urp" role="button"
+                        >
+                            <i class="ri-pencil-ruler-2-line me-2"></i>User Role  & Permission <div class="arrow-down"></div>
+                        </a>
+
+                        <div class="px-2 dropdown-menu mega-dropdown-menu dropdown-mega-menu-xl"
+                            aria-labelledby="urp">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div>
+                                        <a href="ui-alerts.html" class="dropdown-item">Alerts</a>
+                                        <a href="ui-buttons.html" class="dropdown-item">Buttons</a>
+                                        <a href="ui-cards.html" class="dropdown-item">Cards</a>
+                                        <a href="ui-carousel.html" class="dropdown-item">Carousel</a>
+                                        <a href="ui-dropdowns.html" class="dropdown-item">Dropdowns</a>
+                                        <a href="ui-grid.html" class="dropdown-item">Grid</a>
+                                        <a href="ui-images.html" class="dropdown-item">Images</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <a href="ui-lightbox.html" class="dropdown-item">Lightbox</a>
+                                        <a href="ui-modals.html" class="dropdown-item">Modals</a>
+                                        <a href="ui-offcanvas.html" class="dropdown-item">Offcanvas</a>
+                                        <a href="ui-rangeslider.html" class="dropdown-item">Range Slider</a>
+                                        <a href="ui-roundslider.html" class="dropdown-item">Round slider</a>
+                                        <a href="ui-session-timeout.html" class="dropdown-item">Session Timeout</a>
+                                        <a href="ui-progressbars.html" class="dropdown-item">Progress Bars</a>                                           
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div>
+                                        <a href="ui-sweet-alert.html" class="dropdown-item">Sweetalert 2</a>
+                                        <a href="ui-tabs-accordions.html" class="dropdown-item">Tabs & Accordions</a>
+                                        <a href="ui-typography.html" class="dropdown-item">Typography</a>
+                                        <a href="ui-video.html" class="dropdown-item">Video</a>
+                                        <a href="ui-general.html" class="dropdown-item">General</a>
+                                        <a href="ui-rating.html" class="dropdown-item">Rating</a>
+                                        <a href="ui-notifications.html" class="dropdown-item">Notifications</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li> --}}
 
                     {{-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="{{ route('download.all') }}" id="topnav-apps" role="button"
@@ -43,7 +94,7 @@
                         </div>
                     </li> --}}
 
-                    <li class="nav-item dropdown">
+                    {{-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-components" role="button"
                         >
                             <i class="ri-stack-line me-2"></i>Components <div class="arrow-down"></div>
@@ -198,7 +249,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    </li> --}}
 
                 </ul>
             </div>

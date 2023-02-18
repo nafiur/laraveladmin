@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\RoleController;
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\Pos\UnitController;
 use App\Http\Controllers\Demo\DemoController;
@@ -425,6 +426,71 @@ Route::controller(StockController::class)->group(function () {
  
 });
 
+
+
+
+///Permission All Route 
+Route::controller(RoleController::class)->group(function(){
+
+    Route::get('/all/permission','AllPermission')->name('all.permission');
+    Route::get('/add/permission','AddPermission')->name('add.permission');
+    Route::post('/store/permission','StorePermission')->name('permission.store');
+    Route::get('/edit/permission/{id}','EditPermission')->name('edit.permission');
+   
+   Route::post('/update/permission','UpdatePermission')->name('permission.update');
+      Route::get('/delete/permission/{id}','DeletePermission')->name('delete.permission');
+   
+   });
+
+   ///Roles All Route 
+Route::controller(RoleController::class)->group(function(){
+
+    Route::get('/all/roles-permission-mgt','RolesPermissionMgt')->name('all.roles-permission-mgt');
+    Route::get('/all/roles','AllRoles')->name('all.roles');
+    Route::get('/add/roles','AddRoles')->name('add.roles');
+    Route::post('/store/roles','StoreRoles')->name('roles.store');
+    Route::get('/edit/roles/{id}','EditRoles')->name('edit.roles');
+   
+   Route::post('/update/roles','UpdateRoles')->name('roles.update');
+    Route::get('/delete/roles/{id}','DeleteRoles')->name('delete.roles');
+   
+   });
+   
+   ///Add Roles in Permission All Route 
+   Route::controller(RoleController::class)->group(function(){
+   
+    Route::get('/add/roles/permission','AddRolesPermission')->name('add.roles.permission');
+     Route::post('/role/permission/store','StoreRolesPermission')->name('role.permission.store');
+   
+      Route::get('/all/roles/permission','AllRolesPermission')->name('all.roles.permission');
+   
+     Route::get('/admin/edit/roles/{id}','AdminEditRoles')->name('admin.edit.roles');
+   
+       Route::post('/role/permission/update/{id}','RolePermissionUpdate')->name('role.permission.update');
+   
+     Route::get('/admin/delete/roles/{id}','AdminDeleteRoles')->name('admin.delete.roles');
+    
+   });
+   
+   
+   
+   ///Admin User All Route 
+   Route::controller(AdminController::class)->group(function(){
+   
+    Route::get('/all/admin','AllAdmin')->name('all.admin');
+    Route::get('/add/admin','AddAdmin')->name('add.admin');
+    Route::post('/store/admin','StoreAdmin')->name('admin.store');
+    Route::get('/edit/admin/{id}','EditAdmin')->name('edit.admin');
+    Route::post('/update/admin','UpdateAdmin')->name('admin.update');
+    Route::get('/delete/admin/{id}','DeleteAdmin')->name('delete.admin');
+   
+    // // Database Backup 
+    // Route::get('/database/backup','DatabaseBackup')->name('database.backup');
+    // Route::get('/backup/now','BackupNow');
+    // Route::get('{getFilename}','DownloadDatabase');
+    // Route::get('/delete/database/{getFilename}','DeleteDatabase');
+   
+   });
 
 
  }); // End Group Middleware
