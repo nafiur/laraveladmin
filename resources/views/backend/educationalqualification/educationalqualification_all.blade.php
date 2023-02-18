@@ -32,7 +32,7 @@
                                         <tr>
                                             <th>Sl</th>
                                             <th>Name</th> 
-                                            <th>Action</th>
+                                            <th width="10%">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>

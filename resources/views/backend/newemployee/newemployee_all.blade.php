@@ -34,7 +34,7 @@
                                             <th>Name</th> 
                                             <th>Domain</th> 
                                             <th>date of Birth</th> 
-                                            <th>Action</th>
+                                            <th width="10%">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>

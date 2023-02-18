@@ -43,7 +43,7 @@
                             <th>Grade </th>
                             {{-- <th>Email</th>
                             <th>Address</th>  --}}
-                            <th>Action</th>
+                            <th width="10%">Action</th>
                             
                         </thead>
 

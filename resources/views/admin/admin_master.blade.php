@@ -12,6 +12,15 @@
 
         <!-- App favicon -->
         <link rel="shortcut icon" href="{{ asset('backend/assets/images/tmss.png') }}">
+
+        <!-- Stylesheets -->
+    <!-- Dashmix framework -->
+    <link rel="stylesheet" id="css-main" href="{{ asset('backend/mix/assets/css/dashmix.min.css') }}">
+
+    <!-- You can include a specific file from css/themes/ folder to alter the default color theme of the template. eg: -->
+    <!-- <link rel="stylesheet" id="css-theme" href="{{ asset('backend/mix/assets/css/themes/xwork.min.css') }}"> -->
+    <link rel="stylesheet" id="css-theme" href="{{ asset('backend/mix/assets/css/themes/xdream.min.css') }}">
+    <!-- END Stylesheets -->
  
  <!-- Select 2 -->
 <link href="{{ asset('backend/assets/libs/select2/css/select2.min.css') }}" rel="stylesheet" type="text/css">

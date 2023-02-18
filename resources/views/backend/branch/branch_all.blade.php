@@ -34,7 +34,7 @@
                                             <th>Zone Name</th> 
                                             <th>Area Name</th> 
                                             <th>Branch Name</th> 
-                                            <th>Action</th>
+                                            <th width="10%">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>

@@ -45,7 +45,7 @@
                             {{-- <th>Mobile Number </th>
                             <th>Email</th>
                             <th>Address</th>  --}}
-                            <th>Action</th>
+                            <th width="18%">Action</th>
                             
                         </thead>
 

@@ -9,7 +9,7 @@
                 <li class="breadcrumb-item">
                     <a href="/dashboard">Home</a>
                 </li>
-                <li class="breadcrumb-item active" aria-current="page">HR-M&A Forms</li>
+                <li class="breadcrumb-item active" aria-current="page">All Form & Formats</li>
                 </ol>
             </nav>
         <div class="row">
@@ -89,9 +89,9 @@
                                             <th>Sl</th>
                                             <th>Name Bangla</th> 
                                             <th>Name English</th> 
-                                            <th>Download (PDF)</th>
-                                            <th>Download (doc/xls)</th>
-                                            <th>Action</th>
+                                            <th width="5%">PDF</th>
+                                            <th width="5%">Doc</th>
+                                            <th width="10%">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>

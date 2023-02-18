@@ -24,7 +24,7 @@
                                             <th>Sl</th>
                                             <th>Role Name </th>
                                             <th>Group Name </th> 
-                                            <th>Action</th>
+                                            <th width="10%">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>

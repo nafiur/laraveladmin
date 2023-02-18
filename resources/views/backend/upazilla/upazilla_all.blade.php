@@ -36,7 +36,7 @@
 											 <th>District Name</th> 
                                             <th>Upazilla Name</th> 
                                             <th>Name Bangla</th> 
-                                            <th>Action</th>
+                                            <th width="10%">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
